@@ -11,6 +11,7 @@ This github includes the code for our Docker/YAML group assignment for COMS 7900
 
 1. Make a YAML file with this content:
 
+   '''<YAML>
    version: '3.8'
 
    services:
@@ -25,4 +26,4 @@ This github includes the code for our Docker/YAML group assignment for COMS 7900
        
        ports:
        
-         - "9001:9001"
+         - "9001:9001"'''
