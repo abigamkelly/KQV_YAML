@@ -11,7 +11,7 @@ This github includes the code for our Docker/YAML group assignment for COMS 7900
 
 1. Make a YAML file with this content:
 
-   <clipboard-copy for="code-block">Copy</clipboard-copy>
+   <clipboard-copy for="code-block"></clipboard-copy>
 <pre id="code-block">
 <code>
 version: '3.8'
