@@ -9,7 +9,7 @@ This github includes the code for our Docker/YAML group assignment for COMS 7900
 
 ### How to run
 
-1. Make a YAML file with this content:
+1. Make a YAML file (named docker-config.yml) with this content:
 
    <clipboard-copy for="code-block"></clipboard-copy>
 <pre id="code-block">
@@ -24,3 +24,10 @@ version: '3.8'
          - "9001:9001"
 </code>
 </pre>
+
+2. Open the terminal
+3. Change current directory to where the docker-config.yml file is located
+4. Type the following command to build and run the container: **docker-config up -d**
+5. Open the browser and type the following in the search bar: **localhost:9001**
+6. Follow the prompts on the webpage
+7. To stop to container, open the command line and type the following command: **docker container stop CONTAINER_ID**
