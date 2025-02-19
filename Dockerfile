@@ -17,4 +17,4 @@ EXPOSE 9001
 ENV NAME FlaskApp
 
 # Run app.py when the container launches
-CMD ["python", "app.py"]
+CMD ["sh", "-c", "cd /app && python app.py"]
