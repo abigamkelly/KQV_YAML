@@ -9,18 +9,18 @@ This github includes the code for our Docker/YAML group assignment for COMS 7900
 
 ### How to run
 
-1. Make a YAML file (named docker-config.yml) with this content:
+1. Make a YAML file (named docker-compose.yml) with this content:
 
    <clipboard-copy for="code-block"></clipboard-copy>
 <pre id="code-block">
 <code>
-version: '3.8'
+version: '3.9'
 
 services:
    kqv_service:
       build:
          context: https://github.com/abigamkelly/KQV_YAML.git    
-      container_name: test-flask
+      container_name: kqv_yaml
       ports:
          - "9001:9001"
 
@@ -29,7 +29,7 @@ services:
 
 2. Open the terminal
 3. Change current directory to where the docker-config.yml file is located
-4. Type the following command to build and run the container: **docker-config up -d**
+4. Type the following command to build and run the container: **docker-compose up -d**
 5. Open the browser and type the following in the search bar: **localhost:9001**
 6. Follow the prompts on the webpage
 7. To stop to container, open the command line and type the following command: **docker container stop CONTAINER_ID**
