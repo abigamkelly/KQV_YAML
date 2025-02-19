@@ -15,13 +15,15 @@ This github includes the code for our Docker/YAML group assignment for COMS 7900
 <pre id="code-block">
 <code>
 version: '3.8'
-   services:
-     kqv_service:
-       build:
+
+services:
+   kqv_service:
+      build:
          context: https://github.com/abigamkelly/KQV_YAML.git    
-       container_name: test-flask
-       ports:
+      container_name: test-flask
+      ports:
          - "9001:9001"
+
 </code>
 </pre>
 
