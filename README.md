@@ -28,8 +28,8 @@ services:
 </pre>
 
 2. Open the terminal
-3. Change current directory to where the docker-config.yml file is located
-4. Type the following command to build and run the container: **docker-compose up -d**
+3. Change current directory to where the docker-compose.yml file is located
+4. Type the following command to build and run the container: **docker compose up -d**
 5. Open the browser and type the following in the search bar: **localhost:9001**
 6. Follow the prompts on the webpage
 7. To stop to container, open the command line and type the following command: **docker container stop CONTAINER_ID**
